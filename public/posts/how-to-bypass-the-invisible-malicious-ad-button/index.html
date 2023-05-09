@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>How to Bypass the Invisible Malicious Ad Button</title>
+    <meta name="description" content="How a malicious website design leads to uBlock">
+    <meta name="keywords" content='blog, gokarna, hugo, tech'>
+
+    <meta property="og:url" content="https://kudalf.com/posts/how-to-bypass-the-invisible-malicious-ad-button/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="How to Bypass the Invisible Malicious Ad Button">
+    <meta property="og:description" content="How a malicious website design leads to uBlock">
+    <meta property="og:image" content="https://kudalf.com/images/shenandoah_crop.jpg">
+    <meta property="og:image:secure_url" content="https://kudalf.com/images/shenandoah_crop.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Bypass the Invisible Malicious Ad Button">
+    <meta name="twitter:description" content="How a malicious website design leads to uBlock">
+    <meta property="twitter:domain" content="https://kudalf.com/posts/how-to-bypass-the-invisible-malicious-ad-button/">
+    <meta property="twitter:url" content="https://kudalf.com/posts/how-to-bypass-the-invisible-malicious-ad-button/">
+    <meta name="twitter:image" content="https://kudalf.com/images/shenandoah_crop.jpg">
+
+    
+    <link rel="canonical" href="https://kudalf.com/posts/how-to-bypass-the-invisible-malicious-ad-button/" />
+
+    <link rel="stylesheet" type="text/css" href="https://kudalf.com/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://kudalf.com/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://kudalf.com/css/dark.css">
+
+    <script src="https://kudalf.com/js/svg-injector.min.js"></script>
+    <script src="https://kudalf.com/js/feather-icons.min.js"></script>
+    <script src="https://kudalf.com/js/main.js"></script>
+
+    
+    
+        <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+  
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://kudalf.com">
+                <img src="https://kudalf.com/images/shenandoah_crop.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://kudalf.com">Blogs by Yifan Zhou</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://kudalf.com/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://kudalf.com/posts/"><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://kudalf.com/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://kudalf.com/tags/"><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Kudalf"><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://www.buymeacoffee.com/3lFleSR9Vo"><span data-feather='coffee'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://kudalf.com/index.xml"><span data-feather='rss'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://kudalf.com/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://kudalf.com/posts/"><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://kudalf.com/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://kudalf.com/tags/"><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Kudalf"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://www.buymeacoffee.com/3lFleSR9Vo"><span data-feather='coffee'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://kudalf.com/index.xml"><span data-feather='rss'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>How to Bypass the Invisible Malicious Ad Button</h1>
+        <small role="doc-subtitle">How a malicious website design leads to uBlock</small>
+        <p class="post-date">
+            May 8, 2023
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://kudalf.com/tags/tech">tech</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><img src="/images/Pasted%20image%2020230508144818.png" alt=""></p>
+<h1 id="disclaimer">Disclaimer</h1>
+<p>The Copyright Act of 1976 grants copyright holders “exclusive rights” to make copies of their work, distribute it and perform it publicly.  And an individual user&rsquo;s watching a stream — even if it’s unauthorized by the copyright holder — doesn’t technically violate these rights.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Plus, I have Prime Video membership. I just don&rsquo;t use it that often.</p>
+<h1 id="problem">Problem</h1>
+<p>When I was rewatching (Shaun of the Dead)[https://www.imdb.com/title/tt0365748/] on some mysterious <a href="https://xiaobaotv.net/index.php/vod/play/id/41003/sid/1/nid/1.html">website</a>, I tried to fast forward a little, the same thing I have done for a zillion times. Instead, I was redirected to an third-party annoying page.</p>
+<p><img src="/images/Pasted%20image%2020230402053620.png" alt=""></p>
+<p>I would have let it go if the invisible button is gone after I click on it, but it really irritates me when this invisible ad redirector &ldquo;shows up&rdquo; every few seconds. I get it. Whoever is responsible for this periodical naughty behavior wants to create an authentic cinematic experience by making it extremely painful for people to pause, fast-forward, or adjust the volume. But you should not be the one to make the call. I should. So I decide to disable this annoying invisible button.
+It&rsquo;s a little trickier than I expected.</p>
+<h1 id="attempt-1-adblocker">Attempt 1 AdBlocker</h1>
+<p><img src="/images/Pasted%20image%2020230402045938.png" alt=""></p>
+<p>Given the fact that clicking on any part of the screen would redirct I assume there should be a giant redirector element that overlaps the entire page, the first thing on my mind is to use my AdBlocker&rsquo;s selector to block it.
+It turns out there isn&rsquo;t one.
+That&rsquo;s wierd.</p>
+<h1 id="attempt-2-developer-tool">Attempt 2 Developer Tool</h1>
+<p>So I decide to dive deeper using the developer tool.
+<img src="/images/Pasted%20image%2020230402050629.png" alt="">
+Wait, &ldquo;Paused in debugger&rdquo;?
+I keep clicking the F8 (Resume Script Execution), but it keeps back to this breakpoint &ldquo;debugger&rdquo;.<br>
+<img src="/images/Pasted%20image%2020230402051007.png" alt="">
+Obviously this page checks the width between the border and the inner page to detects whether the developer tool is being used. CLassic Anti-Debugger. &ldquo;The more you hide, the more you stand out.&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>
+<img src="/images/Pasted%20image%2020230402052031.png" alt="">
+Done. By adding it to ignore list, the debugger no longer blocks the script from running even if it cries for help.
+Now let&rsquo;s see how it works.</p>
+<h1 id="attempt-3-network-analysis">Attempt 3 Network Analysis</h1>
+<p><img src="/images/Pasted%20image%2020230402053041.png" alt="">
+It seems that there are mainly 2 kinds of requests going on. One is the medix_xxx.ts, which contains the media data. The other, however, look much more suspicious, whose response contains a url.
+<img src="/images/Pasted%20image%2020230402053454.png" alt="">
+Let&rsquo;s see where you leads to.
+<img src="/images/Pasted%20image%2020230402053620.png" alt="">
+Aha. Gotcha. This is exactly got me started. The Developer Tool allows me to trace back to the script that initiates it: <a href="https://qg.catdomepimyth.com/tvnWRQVkIKEIujSu/61650">61650:1</a>. This same script is also clearing my console.
+<img src="/images/Pasted%20image%2020230402054041.png" alt="">
+Now the only thing left is to locate this script and diable it. Before that, let&rsquo;s take a look at the script.
+<img src="/images/Pasted%20image%2020230402060618.png" alt="">
+Complete mess. Let&rsquo;s through it to a <a href="https://beautifier.io/">JavaScript Beautifier</a>.
+<img src="/images/Pasted%20image%2020230402061205.png" alt="">
+A little better, but zero comment. It&rsquo;s never meant to be understood or maintained. The developer tool told me that this snippet is the root cause, so I kept pressing Shift+F12 in VSCode to see who is referencing it and its parents, which finnally lead me to an aync function.
+<img src="/images/Pasted%20image%2020230402061529.png" alt=""></p>
+<h1 id="disable-specific-javascript">Disable Specific JavaScript</h1>
+<p>By searching 61650, I quickly located it in the HTML elements.
+<img src="/images/Pasted%20image%2020230402054240.png" alt="">
+I can&rsquo;t disbale the whole JavaScript because it&rsquo;s also used to stream, so <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock</a> comes in handy because it allows you to develop custome rules to block scripts such as those that . Done! I gained my control back!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.allconnect.com/blog/is-streaming-illegal#:~:text=Watching%20a%20stream%20of%20unlicensed,it%20and%20perform%20it%20publicly.">When is streaming illegal?</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Quote from a reverse engineer <a href="https://github.com/jxb5151">Jason Batchelor</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        </p>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#disclaimer">Disclaimer</a></li>
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#attempt-1-adblocker">Attempt 1 AdBlocker</a></li>
+    <li><a href="#attempt-2-developer-tool">Attempt 2 Developer Tool</a></li>
+    <li><a href="#attempt-3-network-analysis">Attempt 3 Network Analysis</a></li>
+    <li><a href="#disable-specific-javascript">Disable Specific JavaScript</a></li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    <span>&copy; 2023 The Marauders</span>
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
